@@ -13,3 +13,21 @@ Também há o conceito de P.O.O (herança com a palavra reservada _extends_)
 ## Já na branch principal há o primeiro componente com react + node + bootstrap
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+obs: Estes estudos foram baseados nas monitorias do curso RecodePro. Monitores:
+
