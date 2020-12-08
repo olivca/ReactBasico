@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oi React</title>
+</head>
+<body>
+    <div id="conteudo">
+
+        
+    </div>
+
+    <script type="text/babel">
+        class App extends React.Component {
+            render(){
+                return (
+                    <div id="component-App">
+                        <Titulo />
+                        <h2>Aqui, por enquanto é a classe/component escolhida para chamar outras classes: como o título</h2>
+                        <h3>O parágrafo abaixo já é outra classe/component:</h3>
+                        <Paragrafo />
+                    </div>
+                );
+            }
+        }
+
+        class Paragrafo extends React.Component{
+            render() {
+                return(
+                    <div>
+                        <p>Ou seja, podemos criar uma tag html, contendo varias tags html =)</p>
+                    </div>
+                )
+            }
+        }
+
+        class Titulo extends React.Component{
+            render() {
+                return(
+                    <div>
+                        <h1>Esse título está declarado na ultima class do index hehe</h1>   
+                    </div>
+                )
+            }
+
+        }
+
+
+        ReactDOM.render(<App></App>, document.getElementById("conteudo"))
+    </script>
+    
+    
+    <!--React CDN-->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>    
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</body>
+</html>
