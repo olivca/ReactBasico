@@ -27,7 +27,7 @@ npx create-react-app meu-app
 6- dentro de src criei o diretório Components/Menu/Menu.js
 7- Em menu.js importei React from react e criei a class menu extends react.component{} e a função render. No final coloquei o export default.
 8- Fui em srs/App.js e: import Menu from './Components/Menu/Menu' e coloquei <Menu /> dentro do header.
-9- 
+9- Colei um menu do bootstrap dentro do render do menu.js mas modifiquei class para className que é a substituição em jsx.
   
 
 
