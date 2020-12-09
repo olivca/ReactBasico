@@ -23,7 +23,12 @@ npx create-react-app meu-app
 3- Executar os comandos cd meu-app e depois: npm start
 
 4-criei uma estilização pro body no arquivo: src/App.css
-5-
+5-No public/index.html adcionei o cdn bootstrap
+6- dentro de src criei o diretório Components/Menu/Menu.js
+7- Em menu.js importei React from react e criei a class menu extends react.component{} e a função render. No final coloquei o export default.
+8- Fui em srs/App.js e: import Menu from './Components/Menu/Menu' e coloquei <Menu /> dentro do header.
+9- 
+  
 
 
 Desenvolvi esse repositório para consultas futuras e divulgação do aprendizado que venho tendo a partir do curso da Recode-pro e Digital Innovation One.
