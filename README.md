@@ -20,7 +20,10 @@ Também há o conceito de P.O.O (herança com a palavra reservada _extends_)
 2- Após instalar e desabilitar antivírus(porquê deu erro). Criei o projeto e no terminal do vscode executei o comando:
 npx create-react-app meu-app
 
+3- Executar os comandos cd meu-app e depois: npm start
 
+4-criei uma estilização pro body no arquivo: src/App.css
+5-
 
 
 Desenvolvi esse repositório para consultas futuras e divulgação do aprendizado que venho tendo a partir do curso da Recode-pro e Digital Innovation One.
